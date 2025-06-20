@@ -18,10 +18,10 @@ Cung cấp các mẫu sơ đồ ghế (seatmap) dễ tích hợp cho:
 
 | **Kiểu Sơ Đồ**            | **Mô Tả Ngắn**                                      | **Hình Ảnh**                                                                 |
 |---------------------------|-----------------------------------------------------|------------------------------------------------------------------------------|
-| **Rạp chiếu phim cơ bản** | Ghế tập trung, màn hình phía trên                  | <img src="/img/Seat1.png" alt="Cinema Basic" width="300" />           |
-| **Sân khấu hai bên**      | Ghế chia hai khối trái/phải, lối đi giữa           | <img src="/img/Seat2.png" alt="Stage Two Sides" width="300" />     |
-| **Rạp nhiều hàng**        | Nhà hát lớn, hàng A–L, nhiều trạng thái ghế        | <img src="/img/Seat3.png" alt="Large Theater" width="300" />         |
-| **Sân khấu sự kiện**      | Ghế đánh số cụ thể, hai bên sân khấu               | <img src="/img/Seat4.png" alt="Event Stage" width="300" />             |
+| **Rạp chiếu phim cơ bản** | Ghế tập trung, màn hình phía trên                  | <img src="/IMG/Seat1.png" alt="Cinema Basic" width="300" />           |
+| **Sân khấu hai bên**      | Ghế chia hai khối trái/phải, lối đi giữa           | <img src="/IMG/Seat2.png" alt="Stage Two Sides" width="300" />     |
+| **Rạp nhiều hàng**        | Nhà hát lớn, hàng A–L, nhiều trạng thái ghế        | <img src="/IMG/Seat3.png" alt="Large Theater" width="300" />         |
+| **Sân khấu sự kiện**      | Ghế đánh số cụ thể, hai bên sân khấu               | <img src="/IMG/Seat4.png" alt="Event Stage" width="300" />             |
 
 ---
 
