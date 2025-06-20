@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1000px;
+    color: #fff;
+}
+
+.event-info {
+    padding: 20px;
+    width: 40%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.event-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.event-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.event-info .icon {
+    margin-right: 10px;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.price p {
+    font-size: 1.2rem;
+}
+
+.price span {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.event-poster {
+    width: 60%;
+    background-image: linear-gradient(to bottom, #3b5998, #1c3c60);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ffc107;
+}
+
+.artists {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+.artist {
+    background-color: #283e5a;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artist p {
+    font-size: 0.9rem;
+    color: #ffeb3b;
+}
