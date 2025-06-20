@@ -17,11 +17,6 @@ Cung cấp các mẫu sơ đồ ghế (seatmap) dễ tích hợp cho:
 ## 🎨 Một Số Mẫu Giao Diện
 
 <p align="center">
-  <img src="/IMG/usescase.png" alt="Use Case Diagram" width="600" />
-  <br><i>Sơ đồ Use Case mô tả các chức năng chính theo vai trò người dùng</i>
-</p>
-
-<p align="center">
   <img src="/IMG/Seat1.png" alt="Cinema Basic" width="600" />
   <br><strong>Rạp chiếu phim cơ bản – Ghế tập trung, màn hình phía trên</strong>
 </p>
