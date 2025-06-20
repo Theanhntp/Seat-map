@@ -72,12 +72,6 @@ seat-map/
 
 ---
 
-## 📄 Giấy Phép
-
-Chưa xác định.
-
----
-
 <p align="center">
   <strong>seat-map</strong> – Giao diện chọn ghế đơn giản, linh hoạt cho mọi sự kiện!
 </p>
