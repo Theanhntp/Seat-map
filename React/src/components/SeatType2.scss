@@ -1,0 +1,296 @@
+.components {
+    &__seattype2 {
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        color: white;
+        font-family: Arial, sans-serif;
+
+        &-title {
+            color: #00ff00;
+            margin-bottom: 20px;
+        }
+
+        &-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1.25rem;
+            margin-bottom: 0.5rem;
+            margin-top: 3rem;
+            animation: marquee-right-to-left 10s linear infinite;
+            white-space: nowrap;
+
+            span {
+                font-size: 1.25rem;
+            }
+        }
+
+        &-legend {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        &-legend-circle {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        &-available {
+            background-color: #fff;
+        }
+
+        &-selected {
+            background-color: #00ff00;
+        }
+
+        &-unavailable {
+            background-color: #ff0000;
+        }
+
+        &-content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        &-column {
+            width: 65%;
+        }
+
+        &-screen {
+            background-color: #bcbac1;
+            color: #333;
+            padding: 40px 20px;
+            border-radius: 250px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 5rem;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        &-seat-map {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        &-section {
+            border-radius: 50px;
+            padding: 10px;
+            width: 45%;
+
+            &-left {
+                background-color: #90ee90;
+
+                .components__seattype2-row:nth-child(5n + 1) {
+                    transform: translateX(-20px);
+                }
+
+                .components__seattype2-row:nth-child(5n + 2) {
+                    transform: translateX(-10px);
+                }
+
+                .components__seattype2-row:nth-child(5n + 3) {
+                    transform: translateX(0);
+                }
+
+                .components__seattype2-row:nth-child(5n + 4) {
+                    transform: translateX(10px);
+                }
+
+                .components__seattype2-row:nth-child(5n + 5) {
+                    transform: translateX(20px);
+                }
+            }
+
+            &-right {
+                background-color: #add8e6;
+
+                .components__seattype2-row:nth-child(5n + 1) {
+                    transform: translateX(20px);
+                }
+
+                .components__seattype2-row:nth-child(5n + 2) {
+                    transform: translateX(10px);
+                }
+
+                .components__seattype2-row:nth-child(5n + 3) {
+                    transform: translateX(0);
+                }
+
+                .components__seattype2-row:nth-child(5n + 4) {
+                    transform: translateX(-10px);
+                }
+
+                .components__seattype2-row:nth-child(5n + 5) {
+                    transform: translateX(-20px);
+                }
+            }
+        }
+
+        &-row {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        &-row-label {
+            font-size: 1rem;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &-section-left {
+            .components__seattype2-row {
+                .components__seattype2-row-label {
+                    left: 50px;
+                }
+            }
+        }
+
+        &-section-right {
+            .components__seattype2-row {
+                .components__seattype2-row-label {
+                    right: 55px;
+                }
+            }
+        }
+
+        &-seat {
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin: 5px;
+
+            &.components__seattype2-selected {
+                background-color: #00ff00;
+            }
+
+            &.components__seattype2-unavailable {
+                background-color: #ff0000;
+            }
+        }
+
+        &-event-info {
+            background-color: #333;
+            h2 {
+                font-size: 25px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                font-size: 20px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                font-size: 18px;
+            }
+
+            .components__seattype2-icon-calendar {
+                margin-right: 8px;
+                font-size: 20px;
+            }
+
+            .components__seattype2-icon-location {
+                margin-right: 8px;
+                font-size: 20px;
+            }
+
+            .components__seattype2-price-detail {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 3px;
+                margin-right: 8px;
+            }
+
+            .components__seattype2-vip {
+                background-color: #fcd5ce;
+            }
+
+            .components__seattype2-regular {
+                background-color: #b5e2fa;
+            }
+
+            .components__seattype2-student {
+                background-color: #f8e16c;
+            }
+
+            .components__seattype2-price-green {
+                color: #32cd32;
+            }
+        }
+
+        &-info-btn {
+            &-continue-disabled {
+                background-color: #008035;
+                color: #ffffff;
+                cursor: not-allowed;
+                text-align: center;
+                width: 100%;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            &-continue {
+                background-color: #444;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                width: 100%;
+                padding: 10px;
+
+                &:hover {
+                    background-color: #555;
+                }
+            }
+        }
+
+        &-select-ticket-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+
+            &:hover {
+                background-color: #555;
+            }
+        }
+    }
+}

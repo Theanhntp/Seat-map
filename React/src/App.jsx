@@ -2,6 +2,9 @@ import "./App.css";
 import Seat1 from "./components/Seat1";
 import Seat2 from "./components/Seat2";
 import Seat3 from "./components/Seat3";
+import SeatType1 from "./components/SeatType1";
+import SeatType2 from "./components/SeatType2";
+import SeatType3 from "./components/SeatType3";
 import { useState } from "react";
 
 function App() {
@@ -42,6 +45,30 @@ function App() {
           >
             Seat 3
           </button>
+          <button
+            className={`text-lg hover:underline ${
+              activeSeat === "seattype1" ? "font-bold text-yellow-300" : ""
+            }`}
+            onClick={() => setActiveSeat("seattype1")}
+          >
+            Seat Type 1
+          </button>
+          <button
+            className={`text-lg hover:underline ${
+              activeSeat === "seattype2" ? "font-bold text-yellow-300" : ""
+            }`}
+            onClick={() => setActiveSeat("seattype2")}
+          >
+            Seat Type 2
+          </button>
+          <button
+            className={`text-lg hover:underline ${
+              activeSeat === "seattype3" ? "font-bold text-yellow-300" : ""
+            }`}
+            onClick={() => setActiveSeat("seattype3")}
+          >
+            Seat Type 3
+          </button>
         </div>
       </div>
 
@@ -73,6 +100,9 @@ function App() {
         {activeSeat === "seat1" && <Seat1 />}
         {activeSeat === "seat2" && <Seat2 />}
         {activeSeat === "seat3" && <Seat3 />}
+        {activeSeat === "seattype1" && <SeatType1 />}
+        {activeSeat === "seattype2" && <SeatType2 />}
+        {activeSeat === "seattype3" && <SeatType3 />}
       </div>
     </>
   );

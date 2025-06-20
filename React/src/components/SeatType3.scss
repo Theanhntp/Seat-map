@@ -1,0 +1,227 @@
+.components {
+  &__seattype3 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+
+    &-body-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+    }
+
+    &-seat-information {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 10px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    &-indicator {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    &-circle {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      display: inline-block;
+
+      &-available {
+        background-color: #ddd;
+      }
+
+      &-selected {
+        background-color: green;
+      }
+
+      &-unavailable {
+        background-color: red;
+      }
+    }
+
+    &-layout-wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      align-items: flex-start;
+    }
+
+    &-stage-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    &-stage {
+      width: 50%;
+      height: 100px;
+      background-color: #707070;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      font-size: 30px;
+      border-radius: 50px;
+    }
+
+    &-seat-layout {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #e6f7ff;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 1800px;
+      height: auto;
+      position: relative;
+      border-radius: 50px 50px 50px 50px;
+      clip-path: path('M0,80C300,150,700,150,1000,80C1300,10,1700,10,2000,80L2000,500L0,500Z');
+    }
+
+    &-sections {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      gap: 20px;
+      position: relative;
+      margin-top: 150px;
+    }
+
+    &-left-section {
+      display: flex;
+      flex-direction: column;
+
+      .components__seattype3-row:nth-child(2n) {
+        margin-left: 10px;
+      }
+
+      .components__seattype3-row-label:nth-child(2n) {
+        margin-left: 20px;
+      }
+    }
+
+    &-right-section {
+      display: flex;
+      flex-direction: column;
+
+      .components__seattype3-row:nth-child(2n) {
+        margin-left: -10px;
+      }
+
+      .components__seattype3-row-label:nth-child(2n) {
+        margin-left: -20px;
+      }
+    }
+
+    &-divider {
+      width: 5px;
+      background-color: rgb(223, 3, 3);
+      height: 100%;
+      position: absolute;
+      left: 51%;
+      transform: translateX(-50%);
+    }
+
+    &-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    &-row-label {
+      margin-right: 10px;
+      font-weight: bold;
+      width: 20px;
+      text-align: right;
+    }
+
+    &-seats {
+      display: flex;
+      gap: 5px;
+    }
+
+    &-seat {
+      width: 25px;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 12px;
+      border: 1px solid #ccc;
+
+      &-available {
+        background-color: #ddd;
+      }
+
+      &-selected {
+        background-color: green;
+        color: white;
+      }
+
+      &-not-available {
+        background-color: red;
+        color: white;
+      }
+    }
+
+    &-event-information {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      /* Adjust this value to make it wider */
+      min-width: 280px;
+      /* You can set a minimum width */
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+      gap: 10px;
+    }
+
+    &-event-date,
+    &-event-location {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+    }
+
+    &-pricing {
+      margin-top: 10px;
+
+      &-item {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    &-label {
+      font-weight: bold;
+
+      &-vip {
+        color: #ffcc00;
+      }
+
+      &-regular {
+        color: #00ccff;
+      }
+    }
+  }
+}
