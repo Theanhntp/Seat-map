@@ -16,15 +16,45 @@ Cung cấp các mẫu sơ đồ ghế (seatmap) dễ tích hợp cho:
 
 ## 🎨 Một Số Mẫu Giao Diện
 
-| **Kiểu Sơ Đồ**            | **Mô Tả Ngắn**                                      | **Hình Ảnh**                                                                 |
-|---------------------------|-----------------------------------------------------|------------------------------------------------------------------------------|
-| **Rạp chiếu phim cơ bản** | Ghế tập trung, màn hình phía trên                  | <img src="/IMG/Seat1.png" alt="Cinema Basic" width="300" />           |
-| **Sân khấu hai bên**      | Ghế chia hai khối trái/phải, lối đi giữa           | <img src="/IMG/Seat2.png" alt="Stage Two Sides" width="300" />     |
-| **Rạp nhiều hàng**        | Nhà hát lớn, hàng A–L, nhiều trạng thái ghế        | <img src="/IMG/Seat3.png" alt="Large Theater" width="300" />         |
-| **Sân khấu sự kiện**      | Ghế đánh số cụ thể, hai bên sân khấu               | <img src="/IMG/Seat4.png" alt="Event Stage" width="300" />             |
-| **Seat Type 1**          | Sơ đồ chia 4 cụm ghế: trái, phải, giữa trái/phải   | <img src="/IMG/SeatType1.png" alt="Seat Type 1" width="300" />        |
-| **Seat Type 2**          | Sân khấu cong, 2 dãy trái/phải lệch hàng linh hoạt | <img src="/IMG/SeatType2.png" alt="Seat Type 2" width="300" />        |
-| **Seat Type 3**          | Ghế phân bố đối xứng 2 bên, sân khấu trung tâm     | <img src="/IMG/SeatType3.png" alt="Seat Type 3" width="300" />        |
+<p align="center">
+  <img src="/IMG/usescase.png" alt="Use Case Diagram" width="600" />
+  <br><i>Sơ đồ Use Case mô tả các chức năng chính theo vai trò người dùng</i>
+</p>
+
+<p align="center">
+  <img src="/IMG/Seat1.png" alt="Cinema Basic" width="600" />
+  <br><strong>Rạp chiếu phim cơ bản – Ghế tập trung, màn hình phía trên</strong>
+</p>
+
+<p align="center">
+  <img src="/IMG/Seat2.png" alt="Stage Two Sides" width="600" />
+  <br><strong>Sân khấu hai bên – Ghế chia hai khối trái/phải, lối đi giữa</strong>
+</p>
+
+<p align="center">
+  <img src="/IMG/Seat3.png" alt="Large Theater" width="600" />
+  <br><strong>Rạp nhiều hàng – Nhà hát lớn, nhiều trạng thái ghế</strong>
+</p>
+
+<p align="center">
+  <img src="/IMG/Seat4.png" alt="Event Stage" width="600" />
+  <br><strong>Sân khấu sự kiện – Ghế đánh số cụ thể, hai bên sân khấu</strong>
+</p>
+
+<p align="center">
+  <img src="/IMG/SeatType1.png" alt="Seat Type 1" width="600" />
+  <br><strong>Seat Type 1 – Sơ đồ chia 4 cụm ghế: trái, phải, giữa trái/phải</strong>
+</p>
+
+<p align="center">
+  <img src="/IMG/SeatType2.png" alt="Seat Type 2" width="600" />
+  <br><strong>Seat Type 2 – Sân khấu cong, 2 dãy trái/phải lệch hàng linh hoạt</strong>
+</p>
+
+<p align="center">
+  <img src="/IMG/SeatType3.png" alt="Seat Type 3" width="600" />
+  <br><strong>Seat Type 3 – Ghế phân bố đối xứng 2 bên, sân khấu trung tâm</strong>
+</p>
 
 ---
 
